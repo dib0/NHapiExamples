@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "References", "References", "{F2391E8A-E02A-4EC2-9B78-AC987DDFD6F0}"
+	ProjectSection(SolutionItems) = preProject
+		References\NHapi.Base.dll = References\NHapi.Base.dll
+		References\NHapi.Model.V21.dll = References\NHapi.Model.V21.dll
+		References\NHapi.Model.V22.dll = References\NHapi.Model.V22.dll
+		References\NHapi.Model.V23.dll = References\NHapi.Model.V23.dll
+		References\NHapi.Model.V231.dll = References\NHapi.Model.V231.dll
+		References\NHapi.Model.V24.dll = References\NHapi.Model.V24.dll
+		References\NHapi.Model.V25.dll = References\NHapi.Model.V25.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nHapiExampleApplication", "nHapiExampleApplication\nHapiExampleApplication.csproj", "{F2094B96-CF31-4A86-BFC3-C86CD3362CDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2094B96-CF31-4A86-BFC3-C86CD3362CDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2094B96-CF31-4A86-BFC3-C86CD3362CDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2094B96-CF31-4A86-BFC3-C86CD3362CDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2094B96-CF31-4A86-BFC3-C86CD3362CDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
